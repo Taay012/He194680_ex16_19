@@ -1,0 +1,77 @@
+.animals-demo {
+  font-family: Arial, sans-serif;
+  color: #212529;
+  margin: 24px auto;
+  max-width: 1320px;
+  padding: 0 20px;
+}
+
+.animals-demo h1 {
+  text-align: center;
+  font-size: 48px;
+  margin: 0 0 16px;
+}
+
+.animal-list {
+  display: flex;
+  gap: 32px;
+}
+
+.animal-card {
+  width: calc((100% - 64px) / 3);
+  background-color: #ffc107;
+  border: 1px solid #b5a23d;
+  border-radius: 8px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.animal-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 648 / 656;
+  object-fit: cover;
+  border-radius: 7px;
+}
+
+.animal-body {
+  padding: 20px;
+}
+
+.animal-body h2 {
+  color: #dc3545;
+  font-size: 40px;
+  margin: 0 0 12px;
+}
+
+.animal-details {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: white;
+  font-size: 20px;
+}
+
+.animal-details li {
+  padding: 16px 20px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.animal-details li:last-child {
+  border-bottom: none;
+}
+
+.animal-action {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.animal-action button {
+  background-color: #dc3545;
+  color: white;
+  font-size: 20px;
+  padding: 14px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
