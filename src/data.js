@@ -1,12 +1,18 @@
+import lionImage from './image/lion.jpg';
+import gorillaImage from './image/gorilla.jpg';
+import zebraImage from './image/zebra.jpg';
+
 const animals = [
   {
     name: 'Lion',
+    image: lionImage,
     scientificName: 'Panthera leo',
     size: 140,
     diet: ['meat'],
   },
   {
     name: 'Gorilla',
+    image: gorillaImage,
     scientificName: 'Gorilla beringei',
     size: 205,
     diet: ['plants', 'insects'],
@@ -16,6 +22,7 @@ const animals = [
   },
   {
     name: 'Zebra',
+    image: zebraImage,
     scientificName: 'Equus quagga',
     size: 322,
     diet: ['plants'],
